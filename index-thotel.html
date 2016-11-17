@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>THotel/title>
+    <title>THotel</title>
 
     <!-- Bootstrap--> 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-intro/css/bootstrap.min.css" rel="stylesheet">
     <link href="theme-thotel.css" rel="stylesheet">
+
+
+
+
+
+
+
+    
+    
+
 
 
        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,7 +32,71 @@
 
   <body>
 
-    <header></header>
+    <header>
+  <!-- Indicators -->
+
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+              <div class="logo"><a href="index-thotel.html"><img src="img/logo-thotel.png"></a></div>
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <button class="btn topbtn" src="#">PRENOTA ORA</button>
+              <button class="btn topbtn" src="#">IT</button>
+
+               <!--Wrapper for slides -->
+               <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">              
+                        <div class="carousel-caption">
+                          <p>IL TUO SPAZIO BUSINESS A CAGLIARI</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <p>LA TUA VACANZA RELAX IN SARDEGNA</p>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <p>ESPERIENZE DEL GUSTO</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <p>DESIGN E RELAX IN 207 CAMERE</p>
+                      </div>
+                    </div>
+                </div>
+
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
+              </div>
+                            <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+  
+          
+
+
+
+
+
+
+
+
+
+    </header>
 
     <main> </main>
     
@@ -33,5 +107,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+     $('.carousel').carousel({
+      interval: 1000
+      })
+    </script>
+
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+ 
+
+
   </body>
 </html>
