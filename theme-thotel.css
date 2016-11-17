@@ -1,7 +1,5 @@
 /*File css thotel*/
 
-<<<<<<< HEAD
-
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -71,8 +69,6 @@ body {
 
 /* Sezione box centrali con foto*/
 
-
-=======
 header .logo a img {
 	width: 11%;
 	
@@ -102,7 +98,6 @@ header .topbtn:nth-child(2){
 	right: 20px;
 	padding: 10px 10px;
 }
-
 
 .carousel-example-generic {
 
