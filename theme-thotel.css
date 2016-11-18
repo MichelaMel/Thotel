@@ -255,3 +255,67 @@ footer .big-hide {
 footer .big-hide p {
 	margin-bottom: 3px;
 }
+
+@media screen and (min-width: 768px) {
+	footer {
+		padding-top: 35px;
+		padding-bottom: 10px;
+	}
+
+	footer .newsletter {
+		text-align: left;
+		padding-top: 10px;
+	}
+
+	footer .newsletter h3 {
+		margin-bottom: 15px;
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+	footer .newsletter input {
+		display: block;
+		width: 80%;
+		margin-bottom: 10px;
+		border: 0;
+		font-size: 15px;
+		padding-left: 6px;
+	}
+
+	footer .newsletter button {
+		display: block;
+		margin-bottom: 10px;
+		width: 50%;
+		font-size: 15px;
+		position: relative;
+		left: 0;
+	}
+
+	footer .newsletter p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+
+	footer .newsletter img {
+		margin-top: 10px;
+	}
+
+	footer .menu-bottom {
+		text-align: left;
+		margin: 0;
+	}
+
+	footer .contacts {
+		text-align: left;
+	}
+
+	footer .social {
+		text-align: left;
+		margin-bottom: 25px;
+	}
+
+	footer .big-hide {
+		display: none;
+	}
+}
+
