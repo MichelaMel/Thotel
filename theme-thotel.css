@@ -5,6 +5,34 @@ body {
 
 /* Sezione box centrali con foto*/
 
+/*nav*/
+
+nav {
+   padding: 2% 5%;
+
+}
+
+nav .nav-container ul li { 
+   list-style: none;
+   margin: 0 15px;
+   float: left;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+nav .nav-container a {
+   color: #2f2c2c;
+   text-decoration: none;
+}
+
+nav .nav-container a:hover {
+   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+   padding: 5px;
+   color: #fff;
+}
+
+/*nav*/
+
 .box { 
    height: 300px;
    background-size: 100% 300px;
@@ -13,6 +41,10 @@ body {
    background-position: center;
    background-size: cover;
 
+}
+
+.box:hover {
+  background-size: 120%;
 }
 
 .box:first-child {
@@ -61,16 +93,15 @@ body {
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 	text-transform: uppercase;
    display: inline-block;
-   margin-top: 40%;
    font-size: 25px;
    padding: 2px 5px;
+   margin-top: 130px;
 }
 
 /* Sezione box centrali con foto*/
 
 header .logo a img {
 	width: 11%;
-	
 	position: absolute;
 	top: 20px;
 	left: 44%;
