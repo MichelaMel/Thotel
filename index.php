@@ -8,22 +8,11 @@
     <title>THotel</title>
 
     <!-- Bootstrap--> 
-    <link href="../bootstrap-intro/css/bootstrap.min.css" rel="stylesheet">
-    <link href="theme-thotel.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!--additional fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
-
-
-
-
-
-
-    
-    
-
-
 
        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,22 +23,13 @@
   </head>
 
   <body>
-  
 
-   <header>
-  <!-- Indicators -->
-
-
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-              <div class="logo"><a href="index-thotel.html"><img src="img/logo-thotel.png"></a></div>
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <header>
+          <div id="carousel-example-generic" class="carousel slide clearfix" data-ride="carousel">
+              <div class="logo container"><a href="index-thotel.html"><img src="img/logo-thotel.png"></a></div>
               <button class="btn topbtn" src="#">PRENOTA ORA</button>
               <button class="btn topbtn" src="#">IT</button>
-
-               <!--Wrapper for slides -->
-               <div class="carousel-inner" role="listbox">
-
+              <div class="carousel-inner" role="listbox">
                     <div class="item active">              
                         <div class="carousel-caption">
                           <p>IL TUO SPAZIO BUSINESS A CAGLIARI</p>
@@ -71,48 +51,120 @@
                         <p>DESIGN E RELAX IN 207 CAMERE</p>
                       </div>
                     </div>
-                </div>
-
-                <ol class="carousel-indicators">
+              </div>
+               <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                </ol>
-              </div>
-                            <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-  
-          
-
-
-
-
-
-
-
-
-
+               </ol>
+           </div>
+	      <nav class="container">				
+					<ul>
+						<li>
+							<a href="#">home</a>
+						</li>
+						<li>
+							<a href="#">le camere</a>
+						</li>
+						<li>
+							<a href="#">offerte speciali</a>
+						</li>
+						<li> 
+							<a href="#">esperienze del gusto</a>
+						</li>
+						<li>
+							<a href="#">tcongress</a>
+						</li>
+						<li>
+							<a href="#">tspa</a>
+						</li>
+						<li>
+							<a href="#">eventi</a>
+						</li>
+						<li>
+							<a href="#">shop</a>
+						</li>
+					</ul>				
+		  </nav>
     </header>
-    
-<<<<<<< HEAD
+
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Scopri T Hotel<h2>
+			        	</div>
+			      </div>
+			      <!--box slideshow-->
+			      <div class="col-xs-12 col-sm-4 box-container">
+			          	<div class="box">
+			            	<h2 class="box-text">Scopri T Hotel<h2>
+			           </div>
+			      </div>
+			      <!--box slideshow-->
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			      			<h2 class="box-text">Offerte speciali</h2>
+			        	</div>
+			       </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Esperienze del gusto</h2>
+			       		</div>
+			      </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Shop Online</h2>
+			        	</div>
+			      </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Benessere e fitness</h2>
+			        	</div>
+			      </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Visita Cagliari</h2>
+			       		</div>
+			      </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			       			 <h2 class="box-text">Cosa fare</h2>
+			        	</div>
+			      </div>
+			      <div class="col-xs-12 col-sm-4 box-container">
+			      		<div class="box">
+			        		<h2 class="box-text">Business & Conference</h2>
+			        	</div>
+			      </div>
+	    	</div>
+	   </div>
+	   	<div class="social plus">
+			<a href=""><img src="img/plus-icon.png"></a>
+		    <a href="#"><img src="img/ficon.png"></a>
+		    <a href="#"><img src="img/twicon.png"></a>
+		    <a href="#"><img src="img/licon.png"></a>
+		    <a href="#"><img src="img/picon.png"></a>
+		    <a href="#"><img src="img/iicon.png"></a>
+		    <a href="#"><img src="img/flicon.png"></a>
+		    <a href="#"><img src="img/gicon.png"></a>
+		</div> 
+  </section>
+
+ 
+
     <footer class="container-fluid">
-      <div class="row-fluid">
-        <div class="col-xs-12 col-md-3 newsletter">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 newsletter">
           <h3>Newsletter</h3>
           <input type="text" name="email address" placeholder="email address">
           <button class="btn-lg" value="Subscribe">Subscribe</button>
           <p>Powered by</p>
           <a href="#" class="sf"><img src="img/sflogo.png"></a>
         </div>
-        <div class="col-xs-12 col-md-2 menu-bottom">
+        <div class="col-xs-12 col-sm-2 menu-bottom">
           <a href="#">scopri il thotel</a><br>
           <a href="#">visita cagliari</a><br>
           <a href="#">offerte speciali</a><br>
@@ -149,67 +201,16 @@
         </div>
       </div>
     </footer>
-=======
-        <main>
-       <section>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Scopri T Hotel<h2>
-              </div>
-              <!--box slideshow-->
-              <div class="col-xs-12 col-sm-4 box">
-                <img src="">
-              </div>
-              <!--box slideshow-->
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Offerte speciali</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Esperienze del gusto</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Shop Online</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Benessere e fitness</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Visita Cagliari</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Cosa fare</h2>
-              </div>
-              <div class="col-xs-12 col-sm-4 box">
-                <h2 class="box-text">Business & Conference</h2>
-              </div>
-            </div>
-         </div>
->>>>>>> 3c2efcf8f96a403c8f95797717a062603818c804
 
-         
-       </section>
-
-
-    </main>
-    <footer></footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript">
      $('.carousel').carousel({
-      interval: 1000
+      interval: 2000
       })
     </script>
-
-  
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
- 
-
-
-  </body>
+   </body>
 </html>
